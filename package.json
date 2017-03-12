@@ -1,0 +1,21 @@
+{
+  "name": "work-with-db",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "PORT=5544 node ./bin/www",
+    "start-nodemon": "PORT=5544 nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "dotenv": "^4.0.0",
+    "express": "~4.14.1",
+    "hbs": "~4.0.1",
+    "less-middleware": "~2.2.0",
+    "mongoose": "^4.8.6",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2"
+  }
+}
